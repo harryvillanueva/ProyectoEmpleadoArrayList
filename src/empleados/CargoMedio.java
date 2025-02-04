@@ -14,12 +14,12 @@ int comision;
 
     @Override
     public String toString() {
-        return "Empleado \n" +
-                "nombreCompleto=" + nombreCompleto + "\n" +
-                " edad=" + edad + "\n" +
-                " fechaAlta=" + fechaAlta + "\n" +
-                " salario=" + salario + "\n" +
-                " comisión=" + comision + "\n\n\n"
+        return
+                "nombreCompleto=" + nombreCompleto + " " +
+                " edad=" + edad + " " +
+                " fechaAlta=" + fechaAlta + " " +
+                " salario=" + salario + " " +
+                " comisión=" + comision + " "
                 ;
     }
 

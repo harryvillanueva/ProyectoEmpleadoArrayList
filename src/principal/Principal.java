@@ -185,6 +185,37 @@ public class Principal {
 
     private static void eliminarUsuario(){
 
+//        if (listaEmpleados.size()>0){
+//
+//            int contadorEmpleados = 1;
+//            String nombreAEliminar;
+//            for (Empleado lista : listaEmpleados) {
+//
+//                output.mostrarEmpleadoActualizar(contadorEmpleados,lista.getNombreCompleto());
+//                contadorEmpleados++;
+//            }
+//
+//            System.out.println("ingrese nombre de empleado que desea eliminar ");
+//            nombreAEliminar = input.obtenerString();
+//
+//            int index;
+//            for (Empleado lista : listaEmpleados) {
+//
+//                if (nombreAEliminar.equals(lista.getNombreCompleto())){
+//                    index = listaEmpleados.indexOf(lista);
+//                    System.out.println(index);
+//                }
+//
+//            }
+//            listaEmpleados.remove(index);
+//
+//        }
+
+
+
+
+
+
         if (listaEmpleados.size()>0){
 
             int contadorEmpleados = 1;
@@ -197,8 +228,8 @@ public class Principal {
 
             System.out.println("ingrese numero de usuario a eliminar");
             int numero = input.obtenerInt();
-
             listaEmpleados.remove(numero-1);
+
         }
 
 
