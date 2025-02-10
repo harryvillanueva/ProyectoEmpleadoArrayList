@@ -229,7 +229,7 @@ public class Principal {
             System.out.println("ingrese numero de usuario a eliminar");
             int numero = input.obtenerInt();
             listaEmpleados.remove(numero-1);
-            listaEmpleados.re
+
 
         }
 
