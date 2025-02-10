@@ -230,6 +230,7 @@ public class Principal {
             int numero = input.obtenerInt();
             listaEmpleados.remove(numero-1);
 
+
         }
 
 
